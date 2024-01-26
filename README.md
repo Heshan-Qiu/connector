@@ -38,6 +38,8 @@ Configure the application properties in `src/main/resources/application.properti
 4. API Key Configuration  
    api.key=your-api-key
 
+Copy your keystore file to the project directory.
+
 ## Usage
 
 To run the application:
