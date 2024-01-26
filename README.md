@@ -23,19 +23,19 @@ This project provides a Spring Boot micro service for connecting to Visa's API. 
 
 Configure the application properties in `src/main/resources/application.properties`.
 
-1. SSL Configuration
-   ssl.key-store-path=your-keystore-path
-   ssl.key-store-password=your-keystore-password
+1. SSL Configuration  
+   ssl.key-store-path=your-keystore-path  
+   ssl.key-store-password=your-keystore-password  
    ssl.private-key-password=your-private-key-password
 
-2. VISA API URL Configuration
+2. VISA API URL Configuration  
    visa.api.helloworld.url=visa-api-url
 
-3. VISA API Authentication Configuration
-   visa.api.authentication.user.id=your-user-id
+3. VISA API Authentication Configuration  
+   visa.api.authentication.user.id=your-user-id  
    visa.api.authentication.password=your-password
 
-4. API Key Configuration
+4. API Key Configuration  
    api.key=your-api-key
 
 ## Usage
